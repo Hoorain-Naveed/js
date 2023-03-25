@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        let a=["amna","sana","sara","ali","arham"];
+        console.log(a);
+        let b=Array[5,3,4,2,1];
+        console.log(b);
+        let tr=["true","false","true","false"]
+        console.log(tr);
+        let d=["sana","5","nasra","true"]
+        console.log(d);
+        let e=["SSC","HSC", "BCS","BS", "BCOM", "MS", "M.Phil", "PhD"]
+        console.log(e);
+        document.write(e);
+        ////////////////////////
+        let students=["ali","amna","sana"]
+        let g=[250,260,270]
+        ///////////////////////
+        let color=["blue","green","white"]
+        console.log(color)
+        let bggin=prompt("which color do you wants to add in the beggining of array");
+        //unshift is used for adding array in beggin
+        let col=color.unshift(bggin)
+        console.log(col)
+        let end=prompt("which color do you wants to add in the ending of array")
+        //.push is used for adding array in end
+        let endd=color.push(end)
+        console.log(endd)
+        let bggin2=prompt("which color do you wants to add in the beggin of array","pink blue");
+        let bg=color.unshift(bggin2);
+        console.log(bg);
+        //shift is used for removing array
+        let colo=color.shift(0);
+        console.log(colo);
+        //.pop is used for remving last array
+        let co=color.pop()
+        -->
+        let colour=["pink","purple","green"]
+        let user=prompt("which index do you want to add");
+        let rang=pink;
+        let c=rang.position(user)
+        console.log(c)
+        let sco=[340,330,120,140];
+        //sort is used for ascending order
+        let pc=sco.sort();
+        console.log(pc);
+        document.write(pc);
+        //slice is used for specific items line wise either + or -
+        let city=["karachi","islamabad","quetta","peshawar"]
+        let ci=city.slice(0,3)
+        console.log(ci)
+        let string=["this","is","my","cat"];
+        //.join is used for join string '' remove comma
+        let str=string.join('');
+        console.log(str)
+        
+    </script>
+</body>
+</html>
